@@ -2,10 +2,11 @@ import telebot
 import google.generativeai as genai
 
 bot = telebot.TeleBot(
+    #from 7865 = @Montuu_bot
     "7022075456:AAFSYFLp9MDvdVBedEeVh2tcAQYmPKxD_S8",
     parse_mode=None)  # You can set parse_mode by default. HTML or MARKDOWN
 
-### from gemini
+### from gemini = mssaim7777
 genai.configure(api_key="AIzaSyBlpbcqwSWVn9-YNM-YYvENiw5BmBGcd10")
 
 # Set up the model
